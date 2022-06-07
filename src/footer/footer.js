@@ -1,13 +1,11 @@
-import ReactDOM from 'react-dom/client';
-import React from 'react';
-import './footer.css';
+import './Footer.css';
 
 export default function Footer(){
     return (
-    <footer>
+    <footer className='footer'>
          <p>© ESCCI Compagny</p>
-     </footer>) 
+     </footer>
+     ) 
 }
 
 
-// export default Footer;
