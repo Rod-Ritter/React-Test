@@ -9,13 +9,13 @@
     width: 10%;
 }
 
-ul{
+nav ul{
     display: flex;
     gap:3rem;
 }
 
 
 
-li{
+nav ul li{
     list-style: none;
 }
