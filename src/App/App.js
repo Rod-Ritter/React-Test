@@ -3,6 +3,8 @@ import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import logo from '../logo.svg';
 import './App.css';
+// import Contenu from '../Contenu/Contenu'
+// import Produit from '../Produit/Produit'
 
 export default function App() {
 
@@ -30,6 +32,8 @@ export default function App() {
           Learn React
         </a>
       </header>
+      {/* <Produit /> */}
+      {/* <Contenu /> */}
       <Footer />
       </div>
   );

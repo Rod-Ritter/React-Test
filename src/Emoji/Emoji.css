@@ -1,3 +1,19 @@
-.emojis ul li{
+.emojis{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    font-size: 2rem;
+    border: none;
+    background: none;
+}
+
+li{
     list-style: none;
 }
+
+
+li:hover{
+    cursor:pointer;
+}   
