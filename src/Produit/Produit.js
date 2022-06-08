@@ -46,7 +46,7 @@ const produits = [
     avis: "⭐⭐⭐⭐⭐",
   },
   {
-    image: <img src={gant2} />,
+    image: <img src={gant1} />,
     id: 3,
     titre: "Gants de Boxe Super Sport ",
     description: "gants de boxe supers beaux version super sport",

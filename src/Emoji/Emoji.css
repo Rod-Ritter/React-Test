@@ -12,10 +12,16 @@ button{
     cursor:pointer;
 }
 
+button:hover{
+    font-size: 3.5rem;
+}
+
 ul{
     display: flex;
     justify-content: center;
     gap: 1.6rem;
+    height: 10vh;
+    
 }
 
 li{
