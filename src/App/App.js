@@ -34,7 +34,8 @@ export default function App() {
         </a>
       </header>
       <Produit />
-      <Message />
+      <Message messagePasse="le message passe!"/>
+      <Message messagePasse="et c'est génial!"/>
       {/* <Contenu /> */}
       <Footer />
       </div>

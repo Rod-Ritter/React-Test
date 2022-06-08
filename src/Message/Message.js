@@ -1,9 +1,9 @@
 import './Message.css';
 
-export default function() {
+export default function Message (props) {
     return (
-        <div className='Maessge'>
-             <p>bla bla bla</p>
+        <div className='message'>
+             <p>{props.messagePasse}</p>
          </div>
          ) 
 }
