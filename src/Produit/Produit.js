@@ -32,7 +32,7 @@ const produits = [
   {
     image: <img src={gant1} />,
     id: 1,
-    titre: "Gant de Boxe",
+    titre: "Gants de Boxe",
     description: "de très beaux gants de boxe tout neufs",
     prix: "55€",
     avis: "⭐⭐⭐",
@@ -40,7 +40,7 @@ const produits = [
   {
     image: <img src={gant2} />,
     id: 2,
-    titre: "Gant de Boxe Sport",
+    titre: "Gants de Boxe Sport",
     description: "d'autres très beaux gants de boxe tout beaux tout neufs",
     prix: "90€",
     avis: "⭐⭐⭐⭐⭐",
@@ -48,8 +48,8 @@ const produits = [
   {
     image: <img src={gant2} />,
     id: 3,
-    titre: "Gant de Boxe Super Sport ",
-    description: "gants de boxe super beaux version super sport",
+    titre: "Gants de Boxe Super Sport ",
+    description: "gants de boxe supers beaux version super sport",
     prix: "120€",
     avis: "⭐⭐⭐⭐",
   },
