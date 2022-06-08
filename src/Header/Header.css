@@ -9,13 +9,12 @@
     width: 10%;
 }
 
-nav ul{
+.menuHeader{
     display: flex;
     gap:3rem;
 }
 
-
-
-nav ul li{
+.menuHeader li{
     list-style: none;
 }
+
