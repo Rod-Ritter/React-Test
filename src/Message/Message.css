@@ -1,7 +1,6 @@
 .message{
     height: 150px;
-    background-color: #f00;
-    display: flex;
+    background-color: rgb(255, 149, 0);
     align-items: center;
     justify-content: center;
 }
