@@ -1,5 +1,5 @@
-.emojis{
-    display: flex;
+.emoji{
+   display: flex;
     justify-content: center;
 }
 
@@ -7,6 +7,7 @@ button{
     font-size: 2rem;
     border: none;
     background: none;
+    cursor:pointer;
 }
 
 li{
@@ -14,6 +15,4 @@ li{
 }
 
 
-li:hover{
-    cursor:pointer;
-}   
+

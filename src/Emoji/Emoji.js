@@ -56,21 +56,21 @@ const emojis = [
 //   );
 // }
 
-export default function Emoji(){
-    return(
-        <>
-           <ul >
-               {
-                   emojis.map(emoji =>(
-                       <li key={emoji.emoji}>
-                           {emoji.emoji}
-                           
-                           
+export default function Emoji() {
+  return (
+      <>
+          <ul>
+              {
+                  emojis.map(emoji => (
+                      <li key={emoji.emoji}>
+                          <button onClick={showEmoji}>
+                              <span id={emoji.name}>{emoji.emoji}</span>
+                          </button>
                       </li>
-                   )
-                  )
-               }
-           </ul>
-        </>
-    )
+                  ))
+              }
+          </ul>
+ 
+      </>
+  )
 }
