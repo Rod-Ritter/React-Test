@@ -5,7 +5,7 @@ import logo from '../logo.svg';
 import './App.css';
 import Message from '../Message/Message'
 // import Contenu from '../Contenu/Contenu';
-// import Produit from '../Produit/Produit'
+import Produit from '../Produit/Produit'
 
 export default function App() {
 
@@ -33,7 +33,7 @@ export default function App() {
           Learn React
         </a>
       </header>
-      {/* <Produit /> */}
+      <Produit />
       <Message messagePasse="Le message passe!" prenom1="bô gosse!"/>
       <Message messagePasse="Et c'est génial!" prenom1="belle gosse!"/>
       
