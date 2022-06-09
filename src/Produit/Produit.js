@@ -52,6 +52,31 @@ const produits = [
     prix: "120€",
     avis: "⭐⭐⭐⭐",
   },
+  {
+    image: 'https://static.bhphoto.com/images/images500x500/1582663926_1548523.jpg',
+    id: 1,
+    titre: 'Fujifilm INSTAX MINI 11',
+    description: 'Appareil Photo très bô',
+    prix: "76€",
+    avis: "⭐⭐⭐⭐",
+  },
+  {
+    image: 'https://static.bhphoto.com/images/images750x750/1617901588_1630507.jpg',
+    id: 1,
+    titre: 'Fujifilm INSTAX MINI 40',
+    description: 'Appareil Photo vachement très bô',
+    prix: "96€",
+    avis: "⭐⭐⭐⭐⭐",
+  },
+  {
+    image: 'https://static.bhphoto.com/images/images750x750/1641216031_1622961.jpg',
+    id: 1,
+    titre: 'Kodak PRINTOMATIC 5MP0',
+    description: 'Appareil Photo vachement très bô et orange',
+    prix: "86€",
+    avis: "⭐⭐⭐",
+  },
+  
 ];
 
 export default function Produit() {
@@ -66,5 +91,5 @@ export default function Produit() {
     />
   ));
 
-  return listeProduits;
+  return <div className="parent">{listeProduits} </div>
 }
