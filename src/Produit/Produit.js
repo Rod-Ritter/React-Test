@@ -1,7 +1,6 @@
 import "./Produit.css";
 import CardProduit from '../CardProduit/CardProduit';
-import gant1 from "../assets/img/gant-boxe-1.png";
-import gant2 from "../assets/img/gant-boxe-2.png";
+
 
 // const produits = [
 //     { name: 'Pomme', id: 1},
