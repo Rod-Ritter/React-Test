@@ -1,24 +1,17 @@
 import Emoji from '../Emoji/Emoji';
 import Footer from '../Footer/Footer';
-import Header from '../Header/Header';
 import logo from '../logo.svg';
 import './App.css';
 import Message from '../Message/Message'
-// import Contenu from '../Contenu/Contenu';
 import Produit from '../Produit/Produit'
 
 export default function App() {
 
-  // const entete = 'titre';
-  // const titre = <h1>Un titre h1</h1>;
-
-  return (
+ return (
       <div className="App">
-        {/* Ceci est un commentaire en JSX */}
-      <Header />
+     
       <Emoji />
-      {/* <h1 className={entete}>Titre React</h1>
-      {titre} */}
+    
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
