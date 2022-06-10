@@ -4,6 +4,7 @@ import logo from '../logo.svg';
 import './App.css';
 import Message from '../Message/Message'
 import Produit from '../Produit/Produit'
+import Contenu from '../Contenu/Contenu'
 
 export default function App() {
 
@@ -30,7 +31,7 @@ export default function App() {
       <Message messagePasse="Le message passe!" prenom1="bô gosse!"/>
       <Message messagePasse="Et c'est génial!" prenom1="belle gosse!"/>
       
-      {/* <Contenu /> */}
+      <Contenu />
       <Footer />
       </div>
   );
