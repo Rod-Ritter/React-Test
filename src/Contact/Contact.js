@@ -8,7 +8,7 @@ function Contact() {
   const [name, setName] = useState("");
   const [prenom, setPrenom] = useState("");
   const [email, setEmail] = useState("");
-  const [textarea, setTextera] = useState("Saisisez votre commentaire.");
+  const [textarea, setTextera] = useState("Saissisez votre commentaire.");
   const [jour, setJour] = useState("Lundi");
 
   const handleJour = (event) => {
