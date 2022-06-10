@@ -1,0 +1,8 @@
+.posts{
+    text-align: center;
+}
+
+.posts ul{
+    display: flex;
+    flex-direction: column;
+}

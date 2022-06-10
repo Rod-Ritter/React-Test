@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
-import App from "./App/App";
 import Contenu from "./Contenu/Contenu";
 import Produit from "./Produit/Produit";
 import Contact from './Contact/Contact';
@@ -24,7 +23,6 @@ root.render(
         </Route>
       </Routes>
     </BrowserRouter>
-    <App />
   
   </React.StrictMode>
 );

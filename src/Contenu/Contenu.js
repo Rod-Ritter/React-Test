@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Modal from "../Modal/Modal";
 
 // export default function Contenu(initialCount) {
 //     return(
@@ -11,9 +12,21 @@ import React, { useState } from "react";
 
 export default function Contenu({ initialCount }) {
   const [count, setCount] = useState(0);
+  const [show, setShow] = useState(false);
+
+  function handleModal() {
+    setShow(!show);
+  }
+
   return (
     <>
       <header className="App-header">
+        <div className="modalContenu">
+          <button onClick={handleModal}>
+            {show ? "cacher" : "montrer"} la modale
+          </button>
+          {show && <Modal />}
+        </div>
         <div className="compteur">
           Total : {count}
           <button onClick={() => setCount(initialCount)}>Réinitialiser</button>
