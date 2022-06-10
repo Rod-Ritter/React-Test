@@ -6,6 +6,7 @@ import App from "./App/App";
 import Contenu from "./Contenu/Contenu";
 import Produit from "./Produit/Produit";
 import Contact from './Contact/Contact';
+import Posts from './Posts/Posts';
 import Layout from './Layout/Layout';
 
 
@@ -19,6 +20,7 @@ root.render(
         <Route index element={<Contenu />} />
         <Route path="contact" element={<Contact />} />
         <Route path="produit" element={<Produit />} />
+        <Route path="posts" element={<Posts />} />
         </Route>
       </Routes>
     </BrowserRouter>
